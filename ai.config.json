@@ -1,0 +1,12 @@
+{
+    "activeProfile": "defaults",
+    "profiles": {
+        "defaults": {
+            "iKey": "",
+            "application": {
+                "id": "ee6fad97-fd6d-4bd2-b3bb-948f582314ce",
+                "ver": ""
+            }
+        }
+    }
+}

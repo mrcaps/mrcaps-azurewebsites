@@ -8,6 +8,8 @@ var bodyParser = require('body-parser');
 var routes = require('./routes/index');
 var users = require('./routes/users');
 
+var appinsights = require('applicationinsights');
+
 var app = express();
 
 // view engine setup
@@ -54,6 +56,8 @@ app.use(function(err, req, res, next) {
         error: {}
     });
 });
+
+console.log("I started up and logged something to insights.");
 
 
 module.exports = app;
